@@ -1517,7 +1517,7 @@
     /* ==========================================
        FLOATING CTA
        ========================================== */
-    .floating-cta {
+    .hidden-floating-cta {
       position: fixed;
       bottom: 30px;
       right: 30px;
@@ -1574,7 +1574,7 @@
       .rank-score, .rank-cta { grid-column: 2; }
       .section { padding: 60px 16px; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
-      .floating-cta { bottom: 20px; right: 20px; }
+      .hidden-floating-cta { bottom: 20px; right: 20px; }
       .floating-cta a { font-size: 0.9rem; padding: 12px 20px; }
       .mike-corner { padding: 28px; }
       .arkos-featured { padding: 28px; }
@@ -1609,7 +1609,7 @@
     ::-webkit-scrollbar-thumb { background: var(--electric-blue); border-radius: 5px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--hot-pink); }
   </style>
-<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+</head>
 
 <body>
   <!-- Noise Overlay -->
@@ -2134,7 +2134,7 @@
       <div style="margin-top:48px;padding:24px;border:2px solid rgba(255,255,255,0.08);border-radius:16px;background:rgba(255,255,255,0.02);text-align:center;">
         <p style="color:rgba(255,255,255,0.5);font-size:0.85rem;line-height:1.6;max-width:700px;margin:0 auto;">
           <strong style="color:var(--electric-blue);">Disclaimer:</strong> These reviews reflect personal experiences and opinions. Results may vary. This is not medical advice. Consult a healthcare professional before starting any CBD regimen, especially if you're on medication or have underlying health conditions. The FDA has not evaluated these products. They're not intended to diagnose, treat, cure, or prevent any disease.
-        </p>
+         <span style="color:var(--text-muted);display:block;margin-top:6px;font-size:0.82rem;">Owned and operated by Arkos Bioscience. Content reflects our perspective on the CBD industry.</span></p>
       </div>
     </div>
   </section>
@@ -2196,13 +2196,10 @@
       <span class="footer-tagline">No BS. Just CBD. 🔥</span>
     </div>
   
-            <p style="font-size: 0.7rem; color: var(--c-text-muted); opacity: 0.6; margin-top: 8px;">Owned and operated by Arkos Bioscience. Content reflects our perspective on the CBD industry.</p>
+            
         </footer>
 
-  <!-- Floating CTA -->
-  <div class="floating-cta">
-    
-  </div>
+  
 
   <!-- JavaScript -->
   <script>
